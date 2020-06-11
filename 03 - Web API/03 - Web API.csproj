@@ -129,8 +129,6 @@
     </Compile>
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Security\Authentication.cs" />
-    <Compile Include="Security\AuthenticationFailureResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config">
@@ -147,6 +145,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Security\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\02 - Business Logic Layer\02 - Business Logic Layer.csproj">

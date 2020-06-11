@@ -7,7 +7,6 @@ using System.Web.Http.Cors;
 
 namespace FinalProject
 {
-    [IdentityBasicAuthentication]
     [EnableCors("*", "*", "*")]
     [RoutePrefix("api")]
     public class FleetApiController : ApiController
